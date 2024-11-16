@@ -27,25 +27,16 @@
   },
   "tabs": [
     {
+      "name": "Supported Models and Providers",
+      "url": "providers"
+    },
+    {
+      "name": "Logging",
+      "url": "logging_info"
+    },
+    {
       "name": "API Reference",
       "url": "api-reference"
-    }
-  ],
-  "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
     }
   ],
   "navigation": [
@@ -220,22 +211,18 @@
       ]
     },
     {
+      "group": "Logging & Observability",
+      "pages": [
+        "logging_info/logging",
+        "logging_info/team_logging"
+      ]
+    },
+    {
       "group": "Load Balancing",
       "pages": [
         "routing",
         "scheduler",
         "proxy/reliability"
-      ]
-    },
-    {
-      "group": "Logging & Observability",
-      "pages": [
-        "proxy/logging",
-        "proxy/team_logging",
-        "proxy/streaming_logging",
-        "proxy/alerting",
-        "proxy/prometheus",
-        "observability/telemetry"
       ]
     },
     {
