@@ -64,7 +64,7 @@
     {
       "group": "Usage",
       "pages": [
-        "proxy/user_keys",
+        "proxy/usage_with_langchain_openai_sdk",
         "proxy/response_headers",
         "pass_through/vertex_ai",
         "pass_through/google_ai_studio",
