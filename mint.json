@@ -35,8 +35,8 @@
       "url": "logging_info"
     },
     {
-      "name": "API Reference",
-      "url": "api-reference"
+      "name": "Load Balancing",
+      "url": "load_balance"
     }
   ],
   "navigation": [
@@ -220,9 +220,9 @@
     {
       "group": "Load Balancing",
       "pages": [
-        "routing",
-        "scheduler",
-        "proxy/reliability"
+        "load_balance/routing",
+        "load_balance/scheduler",
+        "reliability"
       ]
     },
     {
